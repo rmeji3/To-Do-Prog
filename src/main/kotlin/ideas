@@ -1,0 +1,25 @@
+FEATURES
+------------
+dynamic array(MutableList) of objects(tasks)
+
+bool for complete/not complete
+
+string for task
+
+array/vector for each individual task so you can easily add/remove individual ones
+
+dates? like due dates maybe
+
+
+
+IMPLEMENTATION
+---------------
+infinite while loop(user enters "exit" to exit to break)
+
+first we have to take in the users input for the task and store it in a string
+
+then we take in the users date as a string and concat the month and day then we cast it to an int and sort it like that
+
+sortedBy function to sort classes by due date, this will sort it using the int property of the class
+
+
